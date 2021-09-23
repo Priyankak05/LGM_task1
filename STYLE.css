@@ -1,0 +1,396 @@
+
+.home{
+  
+  background-image:url("eqWesGB.jpg");
+  height: 720px;
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #1d95f7;
+  padding-top: 0.375rem;
+	padding-bottom: 0.375rem;
+	
+	
+	box-shadow: 0 0.0625rem 0.375rem 0 rgba(0, 0, 0, 0.1);
+	font: 600 0.875rem/0.875rem "Open Sans", sans-serif;
+	
+}
+
+body,
+html {
+    width: 100%;
+	height: 100%;
+}
+li {
+  float: left;
+  
+}
+
+a {
+  display: block;
+  padding: 9px;
+  font-size: 20px;
+  color: #fffdfd;
+  
+}
+
+
+
+
+
+.home .navbar-nav {
+	margin-top: 0.75rem;
+	margin-bottom: 0.5rem;
+	display: flex;
+	
+}
+
+.home-custom .nav-item .nav-link {
+	padding: 0.625rem 0.75rem 0.625rem 0.75rem;
+	color: #fff;
+	text-decoration: none;
+	transition: all 0.2s ease;
+	
+}
+
+
+
+.header .header-content {
+	padding-top: 8rem;
+	padding-bottom: 2.125rem;
+	text-align: center;
+}
+
+.header .text-container {
+	margin-bottom: 3rem;
+  text-align: center;
+}
+
+
+.header .heading {
+	margin-bottom: 2rem;
+	color: #fafafa;
+  font-size: 20px;
+  
+}
+
+.header .btn-solid-lg {
+	margin-right: 0.5rem;
+	margin-bottom: 1.25rem;
+  font-size: 25px;
+  background-color: #0f0f0f;
+  text-align: center;
+  display: inline-block;
+  color: #fafafa;
+
+}
+h1 { 
+	font-size: 100px;
+  color: #ffffff;
+   }
+
+.basic-1 .section-title {
+	margin-bottom: 0.5rem;
+  text-align: center;
+   
+  float: center; 
+  height: auto;
+}
+
+.basic-1 {
+  width: 100%;
+  height: 500px;
+  background-color: #fbfbfb;
+  background-size: cover;
+  background-position: center;
+ 
+  
+}
+h2{
+  font-size: 32px;
+  color: #69abad;
+}
+ p{
+  font-size: 25px;
+  color: #110057;
+}
+
+.basic-1 .image-container{
+  text-align: right;
+  position: relative;
+   top: -480px;
+   right: 100px;
+   object-fit:contain; 
+   max-width: 200;  
+   height: 150px;
+   border-radius: 8px;
+}
+
+
+
+
+.you{
+	text-align: center;
+	text-decoration: dashed;
+	box-sizing:border-box;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	
+   
+  }
+  .you h1{
+	  text-align: center;
+	  font-size: 50px;
+	  font-family: Arial, Helvetica, sans-serif;
+	}
+	.beb{
+	  text-align: center;
+	  padding-top: 50px;
+	  font-weight: bold;
+	  display: block;
+	 
+	  background-color: #fbfbfb;
+	}
+  
+	.wrapper{
+		background-color: #fbfbfb;
+		padding-top: 5.625rem;
+	}
+  
+	.wrapper h1{
+	  text-align: center;
+	  font-size: 50px;
+	  font-family: Arial, Helvetica, sans-serif;
+	  padding-top: 5.625rem;	
+	  padding-bottom: 1.25rem;	
+	  color: rgb(95, 163, 180);
+	  
+	}
+	
+	.div .desc {
+	  padding: 15px;
+	  text-align: center;
+	  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	}
+  
+	.column {
+	  float: left;
+	  width: 30.3%;
+	  margin-bottom: 20px;
+	  padding: 0 8px;
+	  
+	}
+	
+	@media screen and (max-width: 650px) {
+	  .column {
+		width: 100%;
+		display: block;
+		
+	  }
+	}
+	
+	.card {
+	  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	}
+	
+	.cont {
+	  padding: 0 16px;
+	}
+	
+	.cont::after, .row::after {
+	  content: "";
+	  clear: both;
+	  display: table;
+	}
+	
+	.title {
+	  color: grey;
+	}
+	
+	.dot {
+	  border: none;
+	  outline: 0;
+	  display: inline-block;
+	  padding: 8px;
+	  color: white;
+	  background-color: #000;
+	  text-align: center;
+	  cursor: pointer;
+	  width: 80%;
+	}
+	
+	.dot:hover {
+	  background-color: #555;
+	}
+
+
+
+	#feedback{
+		display: flex;
+		min-height: 100vh;
+		align-items:center;
+		justify-content: center;
+		
+		background-color:#fbfbfb ;
+	  }
+
+	  .container form{
+		width: 100%;
+		text-align: center;
+		padding: 25px 20px;
+		background-color:#fbfbfb ;
+	  }
+	  .container form h1{
+		padding: 10px 0;
+		color: rgb(15, 7, 7);
+		font-size: 50px;
+		text-align: center;
+	  }
+	  .container form .id{
+		position: relative;
+	  
+	  }
+	  .container form input{
+		width: 100%;
+		height: 50px;
+		margin: 4px 0;
+		border: 1px solid #000000;
+		border-radius: 3px;
+		background: #fbfbfb;
+		padding: 0 15px;
+		font-size: 20px;
+		padding-right: 45px;
+	  }
+	  .container .id i{
+		position: absolute;
+		font-size:20px;
+		top:30%;
+		right: 40px;
+		transform: translate(-50%);
+	  }
+	  .container form textarea{
+		padding: 5px 15px;
+		border: 1px solid #000000;
+		border-radius: 3px;
+		font-size: 20px;
+		width: 100%;
+		margin: 4px 0;
+	  }
+
+	 
+	  .teampage-heading {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		margin-top: 5rem;
+		background-color:#fbfbfb ;
+		
+	}
+	
+	.teampage-data {
+		padding: 0 25%;
+		padding-top: 3%;
+		background-color:#fbfbfb ;
+	}
+	#teampage{
+		padding-top: 5.625rem;
+		
+		padding-bottom: 00px;
+		background-color:#fbfbfb ;
+	}
+	
+	.teampage-card {
+		border: 0;
+		padding: 6%;
+	
+		
+	}
+	.teampage-div {
+		margin: 0 auto;
+		background-color: #72147e;
+		height: 150px;
+		width: 150px;
+		border-radius: 100%;
+	}
+	
+	.teampage-image {
+		height: 150px;
+		width: 150px;
+		border-radius: 100%;
+		position: relative;
+		text-align: center;
+		color: white;
+	}
+	
+	.icon-01 {
+		position: absolute;
+		top: 38%;
+		left: 37%;
+		transform: translate(-50%, -50%);
+		font-size: 2.2rem;
+		color: white;
+	}
+	
+	.icon-02 {
+		position: absolute;
+		top: 38%;
+		left: 51%;
+		transform: translate(-40%, -40%);
+		color: white;
+		font-size: 2.2rem;
+	}
+	
+	.icon-03 {
+		position: absolute;
+		top: 37%;
+		left: 65%;
+		transform: translate(-30%, -30%);
+		color: white;
+		font-size: 2.2rem;
+	}
+	
+	.icon-03 {
+		opacity: 0;
+	}
+	
+	.teampage-div:hover .icon-03 {
+		opacity: 1;
+	}
+	
+	.icon-02 {
+		opacity: 0;
+	}
+	
+	.teampage-div:hover .icon-02 {
+		opacity: 1;
+	}
+	
+	.icon-01 {
+		opacity: 0;
+	}
+	
+	.teampage-div:hover .icon-01 {
+		opacity: 1;
+	}
+	
+	.teampage-image:hover {
+		opacity: 0.4;
+	}
+	
+	.section-02-heading {
+		margin-top: 1rem;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		font-size: large;
+		font-weight: bold;
+		
+	}
+	
+	.card-text {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		font-size: small;
+		font-weight: 300;
+	}
